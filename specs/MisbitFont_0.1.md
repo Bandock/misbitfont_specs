@@ -78,14 +78,18 @@ Header
 }
 ```
 
+```
 Variable Size Type Table (Size determined by Font Character Count)
 {
 	Description:  Used to specify the font width of each character to aid in variable spacing solutions (which is handled by the application).  This table only exists if Variable Spacing Type is enabled.
 
 	1 Byte Per Entry = Character Width (0 = 1px, 255 = 256px, must not be larger than Max Font Width)
 }
+```
 
+```
 Font Data (Size determined by Palette Format, Max Font Width, Max Font Height, and Font Character Count)
 {
 	Description:  This is where all the font data is stored.  Each font character is stored individually one by one based on the Palette Format, Max Font Width, and Max Font Height.  Processing starts at the most significant bit of the first byte, which is the upper left corner of the font character.  Font Character Count further determines how many characters are stored in this area.
 }
+```
