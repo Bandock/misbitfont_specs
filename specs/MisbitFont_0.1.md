@@ -9,6 +9,7 @@ Encoding Support:  ASCII/ANSI, UTF-8/UTF-16/UTF-32, and possibly many others
 
 ## Format
 Header
+
 {
 	4 Bytes = MSBT (MSBT in Little Endian Form)
 	{
