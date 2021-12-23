@@ -5,4 +5,4 @@ Useful applications for this format include games, emulators, fantasy/virtual co
 others.  This is not meant to replace vector fonts.  Also not meant to replace image formats (in fact, you
 can very well convert to those formats).
 
-Current Specification: [0.1](specs/MisbitFont_0.1.md)
+Current Specification: [0.1](specs/MisbitFont_V0.1.md)
