@@ -8,8 +8,8 @@ Encoding Support:  ASCII/ANSI, UTF-8/UTF-16/UTF-32, and possibly many others
 
 
 ## Format
+```
 Header
-
 {
 	4 Bytes = MSBT (MSBT in Little Endian Form)
 	{
@@ -76,6 +76,7 @@ Header
 		Description:  This field is very useful for localization as it can aid in loading up fonts for foreign languages.  How this data is parsed is up to the application (UTF-8 Text Encoding must be supported to parse this field).
 	}
 }
+```
 
 Variable Size Type Table (Size determined by Font Character Count)
 {
