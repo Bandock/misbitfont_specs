@@ -7,6 +7,8 @@ Palette Format Support:  1-bit to 8-bit supported
 
 Encoding Support:  ASCII/ANSI, UTF-8/UTF-16/UTF-32, and possibly many others
 
+Standard Extension:  .MBFT
+
 
 ## Format
 ```
